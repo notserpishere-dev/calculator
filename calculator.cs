@@ -46,5 +46,7 @@ while (isrunning)
         case 5:
             isrunning = false;
             break;
+        default:
+            Console.WriteLine("Invalid option");
     }
 }
